@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000" role="img" aria-label="Placeholder for hero photograph: a tablet displaying a digital planner on a neutral desk">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3EEE4"/><stop offset="1" stop-color="#E8E0D1"/></linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DDD2BF"/><stop offset="1" stop-color="#CFC2AB"/></linearGradient>
+  </defs>
+  <rect width="1200" height="1000" fill="url(#wall)"/>
+  <rect y="640" width="1200" height="360" fill="url(#desk)"/>
+  <!-- vase and sage stems -->
+  <g transform="translate(930 0)">
+    <path d="M60 640 C50 520 40 420 70 300" stroke="#657059" stroke-width="5" fill="none"/>
+    <path d="M60 640 C80 540 110 460 150 380" stroke="#7B8870" stroke-width="5" fill="none"/>
+    <path d="M60 640 C30 560 0 500 -20 430" stroke="#657059" stroke-width="5" fill="none"/>
+    <ellipse cx="70" cy="300" rx="16" ry="44" fill="#657059" transform="rotate(8 70 300)"/>
+    <ellipse cx="150" cy="378" rx="14" ry="38" fill="#7B8870" transform="rotate(35 150 378)"/>
+    <ellipse cx="-20" cy="428" rx="14" ry="38" fill="#657059" transform="rotate(-35 -20 428)"/>
+    <ellipse cx="68" cy="395" rx="12" ry="32" fill="#8C987F" transform="rotate(-10 68 395)"/>
+    <path d="M10 640 C0 590 20 560 60 560 C100 560 120 590 110 640 Z" fill="#F7F3EA" stroke="#D8CFBF" stroke-width="2"/>
+  </g>
+  <!-- tablet -->
+  <g transform="translate(170 200)">
+    <rect x="0" y="0" width="560" height="440" rx="26" fill="#2B2B2B"/>
+    <rect x="18" y="18" width="524" height="404" rx="12" fill="#FFFFFF"/>
+    <rect x="46" y="46" width="170" height="14" fill="#657059"/>
+    <rect x="46" y="76" width="260" height="8" fill="#E4DED3"/>
+    <rect x="46" y="96" width="220" height="8" fill="#E4DED3"/>
+    <rect x="46" y="140" width="230" height="110" fill="#F5F0E8"/>
+    <rect x="292" y="140" width="204" height="110" fill="#F5F0E8"/>
+    <rect x="62" y="158" width="90" height="8" fill="#657059" opacity=".7"/>
+    <rect x="308" y="158" width="90" height="8" fill="#C8A59C"/>
+    <g fill="#D8CFBF"><rect x="62" y="182" width="190" height="6"/><rect x="62" y="200" width="160" height="6"/><rect x="308" y="182" width="170" height="6"/><rect x="308" y="200" width="140" height="6"/></g>
+    <rect x="46" y="274" width="450" height="116" fill="none" stroke="#E4DED3"/>
+    <g stroke="#E4DED3"><line x1="46" y1="313" x2="496" y2="313"/><line x1="46" y1="352" x2="496" y2="352"/><line x1="196" y1="274" x2="196" y2="390"/><line x1="346" y1="274" x2="346" y2="390"/></g>
+  </g>
+  <!-- notebook and pen -->
+  <rect x="640" y="700" width="260" height="150" rx="6" fill="#F7F3EA" stroke="#D8CFBF" stroke-width="2" transform="rotate(-6 640 700)"/>
+  <line x1="700" y1="760" x2="880" y2="745" stroke="#8A8478" stroke-width="5" stroke-linecap="round"/>
+</svg>
